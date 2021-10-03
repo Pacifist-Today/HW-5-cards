@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.square {
+    background-color: transparent;
+    height:auto;
+}
+
+.smartphones {
+    width:19%;
+    height:auto;
+    background-color: transparent;
+    display:inline-block;
+    border: 3px solid black;
+    vertical-align: top;
+    margin-right: 1%;
+}
+
+img {
+    width:100%;
+    /*По сути карточки должны быть однотипными по розмерам пикселей, 
+    но с возможностью демонстрации большей информации при наведении (или подобной фичи), поэтому свёл высоту картинок в один стандарт*/
+    height:450px;
+}
